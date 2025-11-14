@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/afsalu-rahman-c/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/bot_ws/install/edge_avoiding_bot_script/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/edge_detecting_bot_ws/install/bot_scripts/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/final_project_phase2_ws/install/odometry/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/mogi_trajectory_server/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/map_merge_py/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/bme_ros2_navigation_py/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/bme_gazebo_sensors_py/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/beetleBot_ws/install/beetlebot_gazebo/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/beetleBot_ws/install/beetlebot_description/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/afsalu-rahman-c/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/bot_ws/install/edge_avoiding_bot_script/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/edge_detecting_bot_ws/install/bot_scripts/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/final_project_phase2_ws/install/odometry/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/mogi_trajectory_server/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/map_merge_py/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/bme_ros2_navigation_py/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/mogi_ros_ws/install/bme_gazebo_sensors_py/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/beetleBot_ws/install/beetlebot_gazebo/lib/python3.12/site-packages",
+        "/home/afsalu-rahman-c/beetleBot_ws/install/beetlebot_description/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
