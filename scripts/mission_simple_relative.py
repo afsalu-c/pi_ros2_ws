@@ -207,8 +207,6 @@ class SimpleMission(Node):
         # Step 3: Takeoff to 10m
         print('[Step 3] Takeoff to 10m')
         target_height_z = self.current_pose.pose.position.z + 10.0
-#       # if not self.takeoff(10.0):
-        # if not self.takeoff(target_height_z):
         if not self.takeoff(10.0):
             return
 
