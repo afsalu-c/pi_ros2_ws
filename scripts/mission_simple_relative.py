@@ -203,21 +203,22 @@ class SimpleMission(Node):
         if not self.arm():
             return
         time.sleep(2)
-
+        
+        relative_target_height = self.current_pose.pose.position.z + 10.0
+        
         # Step 3: Takeoff to 10m
         print('[Step 3] Takeoff to 10m')
-        target_height_z = self.current_pose.pose.position.z + 10.0
         if not self.takeoff(10.0):
             return
 
         # Wait for takeoff to complete
-#       # self.wait_for_altitude(10.0, tolerance=0.5)
-        self.wait_for_altitude(target_height_z, tolerance=0.5)
+        # self.wait_for_altitude(10.0, tolerance=0.5)
+        self.wait_for_altitude(relative_target_height, tolerance=0.5)
         time.sleep(2)
 
         # Step 4: Move forward 10m
         print('[Step 4] Move forward 10m')
-        self.move_to_position(10.0, 0.0, target_height_z, duration=15)
+        self.move_to_position(10.0, 0.0, relative_target_height, duration=15)
         time.sleep(1)
 
         # Step 5: Wait 3 seconds
